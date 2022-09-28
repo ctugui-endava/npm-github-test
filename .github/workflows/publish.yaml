@@ -26,8 +26,8 @@ jobs:
           registry-url: https://npm.pkg.github.com/
       - run: npm install
       - run: git config --global user.email "claudiu.tugui@boohoo.com" && git config --global user.name "ctugui-endava"
-      - run: git status
       - run: npm version minor
+      - run: git log | head -5
       - run: git push --tags && git push
       - run: npm publish
         env:

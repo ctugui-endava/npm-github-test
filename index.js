@@ -1,3 +1,3 @@
 module.exports = function claudiu() {
-    return 'claudiu test';
+    return 'claudiu test v2';
 }
