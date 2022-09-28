@@ -1,1 +1,3 @@
-console.log('derp test');
+module.exports = function claudiu() {
+    return 'claudiu test';
+}
